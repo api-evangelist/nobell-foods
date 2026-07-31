@@ -1,7 +1,30 @@
 aid: nobell-foods
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nobell-foods.png
 name: Nobell Foods
-description: Nobell Foods is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nobell Foods is a molecular-farming food-technology company founded by Magi
+  Richani that produces animal-free cheese from plant-grown casein. The company
+  engineered soybean plants to grow the same dairy caseins found in animal milk,
+  working with independent Midwest farmers to raise the crop from seed to flower,
+  then converting the plant-derived proteins into cheese that melts, stretches,
+  and tastes like conventional dairy. Backed by DCVC, Y Combinator, Andreessen
+  Horowitz, and investors including Bill Gates and Robert Downey Jr., Nobell
+  raised a $75M Series B and has since rebranded to Alpine Bio, with Nobell Foods
+  continuing as the animal-free cheese brand and product unit. It is a
+  consumer-packaged-goods and biotech company with no public API or developer
+  program; this profile was added to the API Evangelist network as a portfolio
+  lead and enriched with verified public identity only.
 url: https://raw.githubusercontent.com/api-evangelist/nobell-foods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +32,40 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: Alpine Bio
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Food Technology
+- Molecular Farming
+- Plant-Based
+- Animal-Free Cheese
+- Biotechnology
+- Consumer Packaged Goods
+- Precision Fermentation
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nobell-foods-domain-security.yml
+- type: Website
+  url: https://www.nobellfoods.com/
+- type: About
+  url: https://www.nobellfoods.com/pages/about
+- type: FAQ
+  url: https://www.nobellfoods.com/pages/faq
+- type: Press
+  url: https://www.nobellfoods.com/pages/press
+- type: Careers
+  url: https://www.nobellfoods.com/pages/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nobellfoods
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
