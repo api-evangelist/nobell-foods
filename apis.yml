@@ -37,6 +37,9 @@ description: >-
   program; this profile was added to the API Evangelist network as a portfolio
   lead and enriched with verified public identity only.
 url: https://raw.githubusercontent.com/api-evangelist/nobell-foods/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a consumer-packaged-goods and biotech company with no public API or developer program; this profile was added to the API Evangelist network as a portfolio lead and enriched with verified public "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
